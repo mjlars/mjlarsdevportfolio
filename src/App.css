@@ -1,0 +1,200 @@
+:root {
+  --primary-color: #d90d84;
+  --secondary-color: #61dafb;
+}
+
+
+body, html, * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  text-align: center;
+  
+}
+
+body {
+  background-color: rgb(10, 10, 10);
+}
+
+*{
+  box-sizing: border-box;
+  text-decoration: none;
+  max-width: 100%;
+  color: #d90d84;
+  
+}
+
+.App {
+  /* background-color: rgb(10, 10, 10); */
+  min-height: 100vh;
+  color: #d90d84;
+}
+
+
+
+/* svg length = 5604.677734375 */
+
+
+/* Header Styling */
+
+.header {
+  width: 100%;
+  font-size: 1.5rem;
+  border-radius: 0 0 1rem 1rem;
+  border-bottom: 4px solid var(--secondary-color);
+  background-color: rgb(12, 12, 12);
+  position: fixed;
+  z-index: 500;
+  text-align: center;
+  
+}
+
+.header nav{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  flex-wrap: wrap;
+}
+
+.header nav p {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.header nav a {
+  text-decoration: none;
+  font-size: 2rem;
+  padding: 0 1rem;
+}
+.a-tag-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+/* KG Logo */
+
+#Layer_3 .kgPath {
+  
+}
+
+.logoContainer svg {
+  height: 80vh;
+  
+}
+
+#Home {
+  height: 100vh;
+  padding: 4vw;
+  text-align: center;
+  font-size: 2rem;
+  z-index: 499;
+}
+
+.logoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+#down-pointer svg{
+  width: 3rem;
+  stroke: #61dafb;
+}
+
+/* About Me */
+
+#About {
+  height: 100vh;
+  padding: 3vw;  
+  z-index: 499;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.bio-skills {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  width: 80%;
+  flex-wrap: wrap;
+  font-size: 1.25rem;
+}
+
+.biography {
+  width: 50%;
+  padding: 2rem;
+}
+
+.biography img {
+  border-radius: 50%;
+  width: 20rem;
+  margin: 2rem;
+}
+
+.skills-list {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.skills-boxes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.box {
+  margin: .5rem .25rem;;
+  border-bottom: 2px solid var(--secondary-color);
+  border-radius: .3rem;
+  padding: .25rem;
+}
+
+.box p {
+  color: var(--primary-color);
+  font-size: 1.25rem;
+  /* font-weight: bold; */
+}
+
+/* .project-box {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+} */
+
+/* Media Queries */
+
+@media screen and (max-width: 600px) {
+  .header {
+    display: none;
+  }
+  #Home .logoContainer svg {
+    width: 100%;
+
+  }
+  #Home {
+    height: 100vh;
+    padding: 0;
+    text-align: center;
+    font-size: 2rem;
+    
+  }
+}
+

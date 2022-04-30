@@ -1,0 +1,25 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+	 viewBox="0 0 846 846" style="enable-background:new 0 0 846 846;" xml:space="preserve">
+	 
+<style type="text/css">
+	.kgPath{fill:none;stroke:url(#SVGID_1_);stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+</style>
+
+<g id="Layer_3">
+	<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="171.1052" y1="675.9932" x2="713.3878" y2="133.7106">
+		<stop  offset="0" style="stop-color:#D90D84"/>
+		<stop  offset="9.964339e-02" style="stop-color:#D41689"/>
+		<stop  offset="0.2623" style="stop-color:#C52E97"/>
+		<stop  offset="0.4677" style="stop-color:#AE56AE"/>
+		<stop  offset="0.7077" style="stop-color:#8E8DCE"/>
+		<stop  offset="0.9741" style="stop-color:#65D3F7"/>
+		<stop  offset="1" style="stop-color:#61DAFB"/>
+	</linearGradient>
+	<path class="kgPath" d="M158,361.1 M158,210.4c-53.5,89.7-53.5,211.7,0,301.4 M636.5,504.2l29,29c64.7-90.9,71.9-218.2,17.6-315.7
+		l-30.1,30.1C693.5,328,686.4,429.4,636.5,504.2z M158,511.8c0-75.1,0-226.3,0-301.4 M285.3,449.4h71.9l31.3,30.3l300.5-297v-69.2
+		H559.4L357.2,315.1h-71.9V137.2c68-42,162.4-48.9,236.9-15.4c0,0,29.9-29.9,29.9-29.9c-128.4-68.2-299.2-23-380.3,96.9
+		c0,0,0,88.6,0,88.6c0,0,0,0,0,0v375.2l113.5,133.3V449.4z M303.9,639.5c68.8,28.8,151.1,30.1,221.3,3.2l-31.8-31.8
+		c-61.6,19-134.2,12.6-190-16.3L303.9,639.5z M502.1,395.5l-100,98.8l157.2,157.2H689v-69.2L502.1,395.5z"/>
+</g>
+
+</svg>
